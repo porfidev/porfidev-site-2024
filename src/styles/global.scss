@@ -1,0 +1,38 @@
+body {
+  font-family: 'Anonymous Pro', monospace;
+  background-color: var(--main-background);
+  color: var(--primary);
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 872px;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+  border-top: 1px solid var(--secondary);
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  p {
+    margin: 0.2rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--emphasis);
+
+  &:hover{
+    text-decoration: underline;
+    color: var(--highlight);
+  }
+}
