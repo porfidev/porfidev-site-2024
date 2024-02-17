@@ -14,25 +14,3 @@ body {
   min-height: 100vh;
 }
 
-footer {
-  margin-top: auto;
-  border-top: 1px solid var(--secondary);
-  padding-bottom: 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  p {
-    margin: 0.2rem;
-  }
-}
-
-a {
-  text-decoration: none;
-  color: var(--emphasis);
-
-  &:hover{
-    text-decoration: underline;
-    color: var(--highlight);
-  }
-}
