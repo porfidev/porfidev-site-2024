@@ -6,6 +6,7 @@ import '../styles/media-querys.scss';
 import '../styles/global.scss';
 import Footer from '../components/Footer/Footer.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+import HeaderTitle from '../components/HeaderTitle/HeaderTitle.astro';
 ---
 
 <html lang="en">
@@ -24,7 +25,17 @@ import GoogleAnalytics from '../components/GoogleAnalytics.astro';
       </header>
 
       <main>
-        <p>Hi there</p>
+        <HeaderTitle text="Current Activities" />
+        <p>
+          I am working for <a href="https://www.citi.com.mx/">Citi</a> helping to build new experiences for <a
+            href="https://coca-colafemsa.com/">Coca Cola Femsa.</a>
+        </p>
+
+        <!--<article>-->
+        <!--  <HeaderTitle text="Biography" />-->
+        <!--  <p><span>1986</span> Born in Tlalnepantla, México.</p>-->
+        <!--  <p><span>1998</span> Born in Tlalnepantla, México.</p>-->
+        <!--</article>-->
       </main>
 
       <Footer />

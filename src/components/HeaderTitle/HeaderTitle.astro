@@ -1,0 +1,12 @@
+---
+import './HeaderTitle.styles.scss';
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+---
+
+<div>
+  <h2>{text}</h2>
+</div>
