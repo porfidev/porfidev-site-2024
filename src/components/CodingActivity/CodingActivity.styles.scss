@@ -1,0 +1,13 @@
+@use '../../styles/media-querys' as *;
+
+.coding-activity {
+  @include phone {
+    display: none;
+  }
+
+  figure {
+    @include phone {
+      display: none;
+    }
+  }
+}

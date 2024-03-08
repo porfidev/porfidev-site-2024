@@ -20,13 +20,35 @@ footer {
       text-align: center;
     }
   }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include phone {
+      margin: 1rem;
+    }
+
+    a {
+      padding: 0 0.5rem;
+
+      &:hover path {
+        fill: var(--highlight);
+      }
+    }
+
+    path {
+      fill: var(--emphasis);
+    }
+  }
 }
 
 a {
   text-decoration: none;
   color: var(--emphasis);
 
-  &:hover{
+  &:hover {
     text-decoration: underline;
     color: var(--highlight);
   }

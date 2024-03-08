@@ -1,6 +1,8 @@
 ---
 import './Footer.styles.scss';
 const today = new Date();
+import Github from './assets/Github';
+import LinkedIn from './assets/LinkedIn';
 ---
 
 <footer>
@@ -10,12 +12,9 @@ const today = new Date();
     </p>
     <p>&copy; 2022-{today.getFullYear()} <a href="mailto:hola@porfi.dev">Porfirio Chávez</a> | All rights reserved</p>
   </div>
-  <div>
-    <p>&nbsp;</p>
-    <p>
-      <a href="https://github.com/porfidev">github</a> | <a href="https://www.linkedin.com/in/porfidev/"
-    >linkedin</a
-    >
-    </p>
+  <div class="socials">
+      <a href="https://github.com/porfidev"><Github width="24" /></a> <a href="https://www.linkedin.com/in/porfidev/"
+        ><LinkedIn width="24" />
+      </a>
   </div>
 </footer>
