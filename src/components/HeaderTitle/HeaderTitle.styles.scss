@@ -1,5 +1,7 @@
 h2 {
   padding-bottom: 0.2rem;
-  text-decoration: underline 0.2rem var(--emphasis);
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.2rem;
   text-underline-offset: 0.4rem;
+  text-decoration-color: var(--emphasis);
 }
