@@ -1,3 +1,17 @@
 {
+  "compilerOptions": {
+    "baseUrl": "/Users/porfidev/Projects/porfidev-site-2024",
+    "paths": {
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@types/*": [
+        "src/types/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "verbatimModuleSyntax": true,
+  },
   "extends": "astro/tsconfigs/strict"
 }

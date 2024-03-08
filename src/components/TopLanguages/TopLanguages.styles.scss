@@ -1,0 +1,61 @@
+@use '../../styles/media-querys' as *;
+
+path {
+  fill: var(--highlight);
+}
+
+.top-languages {
+  display: flex;
+  flex-direction: row;
+
+  @include phone {
+    flex-direction: column;
+  }
+
+  .tech {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+    @include phone {
+      margin-bottom: 1.4rem;
+    }
+
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+      @include phone {
+        flex: 1;
+        align-items: center;
+      }
+    }
+
+    .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+
+      @include phone {
+        padding-left: 0;
+        flex: 1;
+      }
+
+      .name {
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      .percentage {
+        font-size: 1.4rem;
+      }
+
+      .time {
+        font-size: 1rem;
+      }
+    }
+  }
+}
