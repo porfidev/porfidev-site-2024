@@ -1,9 +1,16 @@
+@use './media-querys' as *;
+
 body {
   font-family: 'Anonymous Pro', monospace;
   background-color: var(--main-background);
   color: var(--primary);
   display: flex;
   justify-content: center;
+
+  @include phone {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
 }
 
 .content {
