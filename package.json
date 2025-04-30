@@ -11,12 +11,12 @@
     "deploy-hosting": "firebase deploy --only hosting"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.4",
-    "@astrojs/react": "^3.0.10",
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/react": "^4.2.6",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
-    "astro": "^4.4.0",
-    "firebase-tools": "^13.3.0",
+    "astro": "^5.7.9",
+    "firebase-tools": "^14.2.1",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -1,7 +1,10 @@
+@use 'sass:color';
+
 html {
   --main-background: #070F2B;
   --secondary: #1B1A55;
   --primary: #535C91;
   --emphasis: #9290C3;
-  --highlight: #{lighten(#9290C3, 15%)};
+  //--highlight: #{lighten(#9290C3, 15%)};
+  --highlight: color.adjust(#9290C3, $lightness: 15%);
 }
